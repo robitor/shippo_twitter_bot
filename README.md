@@ -1,1 +1,1 @@
-# shippo_twitter_bot
+A twitter bot to post the status' of external Shipping Carrier API's 
