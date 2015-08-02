@@ -15,7 +15,11 @@ api = tweepy.API(auth)
 
 carriers = {
     'Endicia Label Purchase': 'Endicia',
-    'FedEx (Production Endpoint)': 'FedEx'
+    'Endicia Label Purchase Copy (testing for hackathon)': 'Endicia',
+    'FedEx (Production Endpoint)': 'FedEx Shipping',
+    'Parcel2Go Test': 'Parcel2Go Shipping',
+    'Mondial Relay Test': 'Mondial Relay Shipping',
+    'UPS International Return Label': 'UPS Shipping'
 }
 
 
