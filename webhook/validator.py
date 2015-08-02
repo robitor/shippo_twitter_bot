@@ -13,6 +13,9 @@ app.logger.setLevel(logging.DEBUG)  # set the desired logging level here
 
 CARRIER_STATUS = {
     'Endicia': [True, []]  # True means up, False means down
+    'FedEx Shipping': [True, []]  # True means up, False means down
+    'Parcel2Go Shipping': [True, []]  # True means up, False means down
+    'Mondial Relay Shipping': [True, []]  # True means up, False means down
 }
 
 def is_valid_error(json):
