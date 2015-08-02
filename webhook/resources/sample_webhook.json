@@ -1,0 +1,123 @@
+{
+    "agent": null,
+    "bucket_key": "0luiulm8p6sh",
+    "bucket_name": "Production Environment",
+    "environment_name": "Test Settings",
+    "environment_uuid": "abd37017-7e13-447c-8da5-4af6d2872715",
+    "finished_at": 1438464447.942756,
+    "initial_variables": {},
+    "region": "us2",
+    "region_name": "US California - None",
+    "requests": [
+        {
+            "assertions": {
+                "fail": 0,
+                "pass": 1,
+                "total": 1
+            },
+            "method": "POST",
+            "note": "",
+            "response_size_bytes": 904,
+            "response_status_code": "201",
+            "response_time_ms": 533,
+            "result": "pass",
+            "scripts": {
+                "fail": 0,
+                "pass": 0,
+                "total": 0
+            },
+            "step_type": "request",
+            "url": "https://api.goshippo.com/v1/shipments?=",
+            "variables": {
+                "fail": 0,
+                "pass": 1,
+                "total": 1
+            }
+        },
+        {
+            "assertions": {
+                "fail": 0,
+                "pass": 1,
+                "total": 1
+            },
+            "method": "GET",
+            "note": "",
+            "response_size_bytes": 6046,
+            "response_status_code": "200",
+            "response_time_ms": 516,
+            "result": "pass",
+            "scripts": {
+                "fail": 0,
+                "pass": 0,
+                "total": 0
+            },
+            "step_type": "request",
+            "url": "https://api.goshippo.com/v1/shipments/f20738334e944e948fc32d0eab6f2c8d/rates/",
+            "variables": {
+                "fail": 0,
+                "pass": 1,
+                "total": 1
+            }
+        },
+        {
+            "assertions": {
+                "fail": 0,
+                "pass": 1,
+                "total": 1
+            },
+            "method": "POST",
+            "note": "",
+            "response_size_bytes": 637,
+            "response_status_code": "201",
+            "response_time_ms": 524,
+            "result": "pass",
+            "scripts": {
+                "fail": 0,
+                "pass": 0,
+                "total": 0
+            },
+            "step_type": "request",
+            "url": "https://api.goshippo.com/v1/transactions",
+            "variables": {
+                "fail": 0,
+                "pass": 1,
+                "total": 1
+            }
+        },
+        {
+            "assertions": {
+                "fail": 0,
+                "pass": 5,
+                "total": 5
+            },
+            "method": "GET",
+            "note": "",
+            "response_size_bytes": 1127,
+            "response_status_code": "200",
+            "response_time_ms": 379,
+            "result": "pass",
+            "scripts": {
+                "fail": 0,
+                "pass": 0,
+                "total": 0
+            },
+            "step_type": "request",
+            "url": "https://api.goshippo.com/v1/transactions/f436335572a64d32be1d794e3a12b987",
+            "variables": {
+                "fail": 0,
+                "pass": 0,
+                "total": 0
+            }
+        }
+    ],
+    "result": "pass",
+    "started_at": 1438464408.973053,
+    "team_id": "7d58bfef-7e6b-4f97-9456-87ee55d85eae",
+    "team_name": "shippo",
+    "test_id": "b172b2b6-7674-45aa-a4c5-83117c4c8e99",
+    "test_name": "Endicia Label Purchase",
+    "test_run_id": "996367dd-55e9-47cd-980b-5368a4c295c2",
+    "test_run_url": "https://www.runscope.com/radar/0luiulm8p6sh/b172b2b6-7674-45aa-a4c5-83117c4c8e99/results/996367dd-55e9-47cd-980b-5368a4c295c2",
+    "test_url": "https://www.runscope.com/radar/0luiulm8p6sh/b172b2b6-7674-45aa-a4c5-83117c4c8e99",
+    "trigger_url": "https://api.runscope.com/radar/3c5d6f7f-73bb-4723-ab5f-78b9b6607e35/trigger"
+}
